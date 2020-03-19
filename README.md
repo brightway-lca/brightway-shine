@@ -53,4 +53,14 @@ https://github.com/CIRAIG/bw2waterbalancer
 
 ## Repositories that extensively *use* brightway2
 
+## Import of LCA databases in brightway2
+### import-agribalyse13
+This repository provides a brightway2 import of Agribalyse 1.3 that is linked to ecoinvent 3.6 cutoff.
+
+Input files: 
+- ecoinvent 3.6 cutoff datasets: can be obtained from [here](https://www.ecoinvent.org/)
+- Agribalyse CSV FINAL_no links_Nov2016v3.CSV: apply [here](https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program)
+
+https://github.com/aleksandra-kim/import-agribalyse13
+
 
