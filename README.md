@@ -57,13 +57,13 @@ This library is a layer above *Brightway2*, briging symbolic calculus to it, for
 
 **lca-algebraic** provides a set of helper functions for :
 
-    * Compact & human readable definition of activites :
-        * search background (tech and biosphere) activities
-        * create new foreground activites with parametrized amounts
-        * parametrize / update existing background activities (extending the class **Activity**)
-    * Definition of parameters
-    * Fast computation of LCAs
-    * Computation of Monte Carlo method and Global Sensivity Analysis (Sobol indices)
+* Compact & human readable definition of activites :
+    * search background (tech and biosphere) activities
+    * create new foreground activites with parametrized amounts
+    * parametrize / update existing background activities (extending the class **Activity**)
+* Definition of parameters
+* Fast computation of LCAs
+* Computation of Monte Carlo method and Global Sensivity Analysis (Sobol indices)
 
 
 https://github.com/oie-mines-paristech/lca_algebraic
