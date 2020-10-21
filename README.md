@@ -55,7 +55,7 @@ https://github.com/CIRAIG/bw2waterbalancer
 
 This library is a layer above *Brightway2*, briging symbolic calculus to it, for the definition of parametric inventories with fast computation of impacts, suitable for global sensivity analyis, based on Monte Carlo method.
 
-**lca-algebraic** provides a set of helper functions for :
+**[lca-algebraic](https://github.com/oie-mines-paristech/lca_algebraic)** provides a set of helper functions for :
 
 * Compact & human readable definition of activites :
     * search background (tech and biosphere) activities
