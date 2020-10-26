@@ -7,6 +7,11 @@ If you have a project that does this, please go ahead and add it here.
 ## Repositories that *extend* brightway
 These repositories add some functionality to the core brightway-lca code base. 
 
+### Activity Browser
+A graphical user interface for brightway (cross platform and open source). It extends brightway in a number of way and provides users a more convenient way for standard tasks in brightway, such as inventory modeling and the analysis of LCA results.
+
+https://github.com/LCA-ActivityBrowser/activity-browser
+
 ### presamples
 Package to write, load, manage and verify numerical arrays, called presamples.  
 
@@ -53,6 +58,16 @@ https://github.com/CIRAIG/bw2waterbalancer
 
 ## Repositories that extensively *use* brightway2
 
+### Global Sensitivity Analysis (Delta Moment-Independent Approach)
+This repository implements the delta moment-independent GSA approach from SaLib and adds some smart filtering to reduce the number of GSA input variables. Still, this way the entire background can be included in GSA. It is based on previous Monte Carlo Analysis (methods for that included in the repository as it needs to store the LCA input and output data). An implementation is also available in the Activity Browser (https://github.com/LCA-ActivityBrowser/activity-browser).
+
+https://github.com/bsteubing/lca-global-sensitivity-analysis
+
+### Modular LCA
+An approach for modular LCA. Parts of lifecylces can be recombined in flexible ways. This can also be used to make lifecycle stages and simply calculate the environmental impact of these. A graphical user interface is very useful (but currently only a very early version of the Activity Browser contained this; a new interface may be added in the future).
+
+https://github.com/bsteubing/modular-lca
+
 ## Import of LCA databases in brightway2
 ### import-agribalyse13
 This repository provides a brightway2 import of Agribalyse 1.3 that is linked to ecoinvent 3.6 cutoff.
@@ -62,5 +77,7 @@ Input files:
 - Agribalyse CSV FINAL_no links_Nov2016v3.CSV: apply [here](https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program)
 
 https://github.com/aleksandra-kim/import-agribalyse13
+
+
 
 
