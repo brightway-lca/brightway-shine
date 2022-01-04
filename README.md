@@ -67,17 +67,3 @@ https://github.com/bsteubing/lca-global-sensitivity-analysis
 An approach for modular LCA. Parts of lifecylces can be recombined in flexible ways. This can also be used to make lifecycle stages and simply calculate the environmental impact of these. A graphical user interface is very useful (but currently only a very early version of the Activity Browser contained this; a new interface may be added in the future).
 
 https://github.com/bsteubing/modular-lca
-
-## Import of LCA databases in brightway2
-### import-agribalyse13
-This repository provides a brightway2 import of Agribalyse 1.3 that is linked to ecoinvent 3.6 cutoff.
-
-Input files: 
-- ecoinvent 3.6 cutoff datasets: can be obtained from [here](https://www.ecoinvent.org/)
-- Agribalyse CSV FINAL_no links_Nov2016v3.CSV: apply [here](https://www.ademe.fr/en/expertise/alternative-approaches-to-production/agribalyse-program)
-
-https://github.com/aleksandra-kim/import-agribalyse13
-
-
-
-
