@@ -56,6 +56,25 @@ Unbalanced samples arise when water exchanges are independently sampled. bw2wate
 
 https://github.com/CIRAIG/bw2waterbalancer
 
+### lca_algebraic
+
+This library is a layer above *Brightway2*, briging symbolic calculus to it, for the definition of parametric inventories with fast computation of impacts, suitable for global sensivity analyis, based on Monte Carlo method.
+
+**[lca-algebraic](https://github.com/oie-mines-paristech/lca_algebraic)** provides a set of helper functions for :
+
+* Compact & human readable definition of activites :
+    * search background (tech and biosphere) activities
+    * create new foreground activites with parametrized amounts
+    * parametrize / update existing background activities (extending the class **Activity**)
+* Definition of parameters
+* Fast computation of LCAs
+* Computation of Monte Carlo method and Global Sensivity Analysis (Sobol indices)
+
+
+https://github.com/oie-mines-paristech/lca_algebraic
+
+
+
 ## Repositories that extensively *use* brightway2
 
 ### Global Sensitivity Analysis (Delta Moment-Independent Approach)
