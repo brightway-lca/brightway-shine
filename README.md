@@ -1,5 +1,11 @@
 # brightway-shine
 
+⚠️ this markdown file has been moved to the new Brightway documentation \
+⚠️ this increases the visibility of the projects featured here \
+⚠️ if you would like to add your project, please open a pull request on the page at the new documentation: \
+https://documentation.brightway.dev/en/latest/source/other/ecosystem.html
+
+
 This file links to other repositories outside the brightway-lca organization where the brightway code is extended or used.  
 
 If you have a project that does this, please go ahead and add it here.
